@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="src",
-    version="0.0.1",
+    version="0.0.2",
     author="agoyal-84",
     description="A small package for dvc ml pipeline demo",
     long_description=long_description,
@@ -15,7 +15,7 @@ setup(
     packages=["src"],
     python_requires=">=3.7",
     install_requires=[
-        'dvc',
+        'dvc==2.7.3',
         'pandas',
         'scikit-learn'
     ]
